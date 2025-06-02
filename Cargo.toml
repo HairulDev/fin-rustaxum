@@ -1,0 +1,17 @@
+[package]
+name = "finance-rust-axum"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.7", features = ["multipart"] }  # aktifkan multipart
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tower = "0.4"
+mime_guess = "2"
+tokio-util = "0.7"
+zip = "0.6"
+uuid = { version = "1", features = ["v4"] }
+hyper = "1.6.0"
+tower-http = { version = "0.6", features = ["cors"] }
