@@ -4,14 +4,15 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-axum = { version = "0.7", features = ["multipart"] }  # aktifkan multipart
-tokio = { version = "1", features = ["full"] }
-serde = { version = "1", features = ["derive"] }
-serde_json = "1"
+axum = { version = "0.7", features = ["multipart"] }
+tokio = { version = "1.28", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 tower = "0.4"
-mime_guess = "2"
+mime_guess = "2.0"
 tokio-util = "0.7"
 zip = "0.6"
-uuid = { version = "1", features = ["v4"] }
-hyper = "1.6.0"
-tower-http = { version = "0.6", features = ["cors"] }
+uuid = { version = "1.4", features = ["v4"] }
+hyper = "0.14"
+tower-http = { version = "0.6", features = ["cors", "limit"] }
+futures = "0.3"
