@@ -3,6 +3,12 @@
 This repository contains documentation and references for both the **backend** (.NET Core 8) and **backend** (Rust Axum for upload/download file) and **frontend** (Vue.js or React.js or Angular.js)
 ---
 
+## Demo
+
+Watch the demo on YouTube: [https://youtu.be/F95vnIzb4mU?feature=shared]
+https://youtu.be/F95vnIzb4mU?feature=shared
+
+---
 ## Related Projects
 
 - **.NET Core 8 (Backend)**: [fin-netcore](https://github.com/HairulDev/fin-netcore)
